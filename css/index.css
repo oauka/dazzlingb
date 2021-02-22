@@ -366,11 +366,34 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 }
 
 /* ////////////////////////////// */
-#footer { display: none; }
-#footer .me {
-    padding-top: 10px;
+#footer {
+    display: none;
     text-align: center;
+    background: #bd97d3; width: 100%;
+}
+
+#footer .sns { padding: 10px 0;}
+#footer .sns a {
+    display:inline-block;
+    font-size: 14px; color: #fff;
+    width:32px; height:32px; line-height:33px;
+    background:rgba(255,255,255,0.3);
+    border-radius:50%;
+    transition:all 0.3s;
+}
+#footer .sns a:hover {
+    background:rgba(255,255,255,0.5);
+}
+
+#footer .me {
+    padding-bottom: 10px;
     color: #fff;
-    line-height: 1.2;
-    
+    line-height: 1.2;    
+}
+
+#footer .copyright {
+    background: #666;
+    color: #fff; font-size: 14px;
+    font-family: 'Rajdhani';
+    width: 100%;
 }

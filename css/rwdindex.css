@@ -134,9 +134,9 @@
 
     .article4 ul li {    
         float:left; 
-        width:70%;
+        width:80%;
         margin-right: 0%;
-        margin: 5% 15%;
+        margin: 5% 10%;
         font-size: 20px; color: #666;
         line-height: 1.5em;
         position: relative;
@@ -155,12 +155,10 @@
         position:relative;
     }
 
-    #footer {
-        padding: 10px 0; width: 100%;
-        background: #bd97d3;
+    #footer {        
         display: block;
     }
-    #footer p:nth-child(4) { padding: 10px 0;}
+
 
 
 } /* 1200px 마지막 괄호 */

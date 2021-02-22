@@ -126,7 +126,7 @@
 
     .article4 {
         width: 100%; 
-        background: #e9c7d6; padding: 100px 0;
+        background: #e9c7d6; padding: 20px 0;
         position:relative;
         overflow: hidden;
 
@@ -134,9 +134,9 @@
 
     .article4 ul li {    
         float:left; 
-        width:80%;
+        width:90%;
         margin-right: 0%;
-        margin: 5% 10%;
+        margin: 5% 5%;
         font-size: 20px; color: #666;
         line-height: 1.5em;
         position: relative;
@@ -201,9 +201,9 @@
 
     .article4 ul li {    
         float:left; 
-        width:70%;
+        width:90%;
         margin-right: 0%;
-        margin: 5% 15%;
+        margin: 5% 5%;
         font-size: 16px; color: #666;
         line-height: 1.5em;
         position: relative;

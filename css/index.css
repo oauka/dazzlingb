@@ -313,7 +313,7 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 }
 
 .article3 .imgbox p {
-    color: #fff; font-size: 20px;
+    color: #fff; font-size: 40px;
     position:absolute; top:50%;
     left:50%; transform:translate(-50%, -35%);
 
@@ -321,6 +321,7 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 .article3 .imgbox:hover > div { opacity:1;}
 .article3 ul li img { border-radius: 50%; transition:all 0.5s;}
 .article3 ul li:hover img { transform:scale(1.4) }
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* article4 */
 .article4 {

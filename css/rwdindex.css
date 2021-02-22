@@ -235,7 +235,7 @@
     }
     
     .article3 .imgbox p {
-        color: #fff; font-size: 20px;
+        color: #fff; font-size: 30px;
         position:absolute; top:50%;
         left:50%; transform:translate(-50%, -35%);
     }

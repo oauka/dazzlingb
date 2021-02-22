@@ -24,7 +24,7 @@
     #header .close.on { display: block; }
 
     #header .menu {
-        position:absolute; top:0%; left:0;
+        position:fixed; top:0%; left:0;
         width: 100%; height: auto;
         background: #bd97d3;
         z-index: 99999;
@@ -57,7 +57,7 @@
     #header .depth1 > li > a {
         font-weight: bold;
         display: block;
-        padding: 5px 30px;
+        padding: 5px 40px;
         font-size: 17px;
 
     }

@@ -315,7 +315,8 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 .article3 .imgbox p {
     color: #fff; font-size: 20px;
     position:absolute; top:50%;
-    left:50%; transform:translate(-50%, -50%); 
+    left:50%; transform:translate(-50%, -35%);
+
 }
 .article3 .imgbox:hover > div { opacity:1;}
 .article3 ul li img { border-radius: 50%; transition:all 0.5s;}
@@ -396,4 +397,5 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
     color: #fff; font-size: 14px;
     font-family: 'Rajdhani';
     width: 100%;
+    padding: 10px 0;
 }

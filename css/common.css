@@ -60,7 +60,7 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 #header .depth1 > li:nth-child(1) { border-top: 1px solid #fff; }
 #header .depth1 > li > a { font-weight: bold; }
 #header #nav .depth1 > li:hover {
-    background: #fff; color: #bd97d3;
+    background: #fff; color: #bd97d3; border-bottom: 1px solid #bd97d3;
     transition:all 0.3s
 }
 

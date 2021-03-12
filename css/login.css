@@ -1,0 +1,34 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+/* font-family: 'Rajdhani'; */
+
+body{ font-family: 'Noto Sans KR', sans-serif; color:#666; font-size:15px; }
+.row{ max-width: 700px; margin:0 auto; padding:0 10px; }
+* { outline: none; }
+
+legend { display:none }
+.loginPage { width: calc(100% - 200px); }
+.loginBox { padding-top:80px; padding-bottom:80px; }
+.loginBox h2 { font-size:30px; padding:40px 0; color: #bd97d3; font-weight: bold;}
+.loginBox .outer {
+    border: 1px solid #ddd; border-left: none; border-right: none;
+    margin: 20px 0;
+    padding: 67px 0;
+    text-align: center;
+}
+
+.loginBox .outer div { display: inline-block; vertical-align: middle; }
+.loginBox .outer label { display: inline-block;
+    width: 70px; text-align: left; vertical-align: middle; 
+}
+.loginBox .outer input {
+    width: 200px; height: 35px; vertical-align: middle; margin-right: 10px;
+    border-radius: 5px; border:1px solid #ddd;
+}
+.loginBox .outer p { margin: 10px 0; }
+.loginBox .outer button { width: 100px; height: 80px; vertical-align: middle;
+    background: #bd97d3; color: #fff; font-size: 20px; border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,71 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+/* font-family: 'Rajdhani'; */
+
+body{ font-family: 'Noto Sans KR', sans-serif; color:#666; font-size:15px; }
+.row{ max-width: 1200px; margin:0 auto; padding:0 10px; }
+* { outline: none; }
+
+.noticePage { width: calc(100% - 200px); padding: 0 50px; }
+.noticeBox caption { display: none;}
+.noticeBox {
+    padding-top:80px; padding-bottom:80px;
+}
+.noticeBox h2 { font-size:30px; padding:40px 0; color: #bd97d3; font-weight: bold; }
+.noticeBox .search { text-align: right; }
+.noticeBox .search select,
+.noticeBox .search input {
+    height: 30px; vertical-align: middle; padding: 0 5px;
+    border:1px solid #ddd; border-radius: 5px;
+}
+.noticeBox .search button {
+    height: 30px; vertical-align: middle; padding: 0 10px;
+    background: #bd97d3; color: #fff; font-size: 14px; border: none;
+    border-radius: 5px;
+}
+
+.noticeBox table { margin: 20px 0 30px;}
+.noticeBox table { border: none;}
+.noticeBox table col:nth-child(1) { width: 8%;}
+.noticeBox table col:nth-child(2) { width: auto;}
+.noticeBox table col:nth-child(3) { width: 13%;}
+.noticeBox table col:nth-child(4) { width: 13%;}
+.noticeBox table col:nth-child(5) { width: 8%;}
+.noticeBox table th,
+.noticeBox table td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 5px;
+}
+.noticeBox table th { 
+    background: #f2f2f2;
+    border-top: 3px solid #ccc;
+}
+.noticeBox table td {
+    white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+}
+.noticeBox table tbody td { text-align: center;}
+.noticeBox table tbody td:nth-child(2) { text-align: left;}
+
+.noticeBox .num-list {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.noticeBox .num-list span,
+.noticeBox .num-list a {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 3px;
+}
+.noticeBox .num-list span {
+    background: #bd97d3;
+    color: #fff;
+}
+.noticeBox .num-list a.act,
+.noticeBox .num-list a:hover {
+    color: #bd97d3;
+    border-bottom: 1px solid #8D84E4;
+}

@@ -9,109 +9,9 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 .row{ max-width: 1200px; margin:0 auto; padding:0 10px; }
 * { outline: none; }
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* header */
-#header { position: relative; }
-#header .menu {
-    position: fixed;
-    top: 0; right: 0;
-    width: 200px; height: 100vh;
-    background: #bd97d3;
-    z-index: 99999;
-    text-align: center;
-    font-family: 'Rajdhani'      
-}
-
-#header h1 img {
-    width: 150px;
-    padding: 60px 0px;    
-}
-#header .open,
-#header .close { color: #fff; display:none; }
-
-#header .depth1 {
-    color: #fff;
-    font-size: 20px;    
-}
-#header .depth1 > li {
-    padding: 10px 0; 
-    border-bottom: 1px solid #fff;
-}
-#header .depth1 > li:nth-child(1) { border-top: 1px solid #fff; }
-#header .depth1 > li > a { font-weight: bold; }
-#header #nav .depth1 > li:hover {
-    background: #fff; color: #bd97d3;
-    transition:all 0.3s
-}
-
-#header .depth2 {
-    margin-top: 10px;
-    background: #e9c7d6; color: #fff;
-    display:none;
-    transition:all 0.8s;
-}
-#header .depth2 > li {
-    padding: 10px 0;    
-}
-#header .depth2 > div {
-    padding: 10px;
-}
-#header .depth2 > div > div:nth-child(1) {
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    background: #fff;
-    margin: 10px auto;
-}
-#header .depth2 > div > div:nth-child(2) {
-    width: 10px; height: 10px;
-    border-radius: 50%;
-    background: #fff;
-    margin: 10px auto;
-}
-#header .depth2 div > i {
-    color: #fff;
-}
-
-
-#header #nav .depth1 > li.hover > a { color: #bd97d3; }
-#header #nav .depth1 > li:nth-child(2):hover { padding-bottom: 0;}
-#header #nav .depth1 > li:hover .depth2 { display:block; }
-#header #nav .depth2 > li:hover {
-    background: #d0a1b5; color: #fff; font-weight: bold;
-    transition: all 0.6s;
-}
-
-/* sns */
-#header .sns { margin-top: 30px;}
-#header .sns a {
-    display:inline-block;
-    font-size: 14px; color: #fff;
-    width:32px; height:32px; line-height:34px;
-    background:rgba(255,255,255,0.3);
-    border-radius:50%;
-    margin:0 5px;
-    transition:all 0.3s
-}
-#header .sns a:hover {
-    background:rgba(255,255,255,0.5);
-}
-
-#header .me {
-    font-size: 14px;
-    color: #fff;
-    line-height: 1.2em;
-    position: absolute; bottom: 0; width: 100%;
-    padding-bottom: 50px;
-}
-
-
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* section */
 /* article1 > slide */
+#section { padding-top: 20px;}
 #section .article1 { position:relative; overflow: hidden; }
 
 .article1 .slide_group {
@@ -365,38 +265,4 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
     overflow: hidden;
     margin-bottom:25px;
     position:relative;
-}
-
-/* ////////////////////////////// */
-#footer {
-    display: none;
-    text-align: center;
-    background: #bd97d3; width: 100%;
-}
-
-#footer .sns { padding: 10px 0;}
-#footer .sns a {
-    display:inline-block;
-    font-size: 14px; color: #fff;
-    width:32px; height:32px; line-height:33px;
-    background:rgba(255,255,255,0.3);
-    border-radius:50%;
-    transition:all 0.3s;
-}
-#footer .sns a:hover {
-    background:rgba(255,255,255,0.5);
-}
-
-#footer .me {
-    padding-bottom: 10px;
-    color: #fff;
-    line-height: 1.2;    
-}
-
-#footer .copyright {
-    background: #666;
-    color: #fff; font-size: 14px;
-    font-family: 'Rajdhani';
-    width: 100%;
-    padding: 10px 0;
 }

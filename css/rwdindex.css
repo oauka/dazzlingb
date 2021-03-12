@@ -283,33 +283,6 @@
     
 
 /* commodity */
-    .combox ul li {
-        float: left;
-        width: 48%;
-        margin-right: 1.3333%;
-    }
-    .combox ul li:nth-child(3),
-    .combox ul li:nth-child(6),
-    .combox ul li:nth-child(9) { margin-right: 1.3333%; }
-
-    .combox ul li:nth-child(2),
-    .combox ul li:nth-child(4),
-    .combox ul li:nth-child(6) { margin-right: 0; }
-
-    .imgBox img {
-        height: 500px;
-    }
-
-    .combox ul {
-    overflow: hidden;
-    font-size: 18px;
-    line-height: 1.2;
-    }
-
-} /* 950px 마지막 괄호 */
-
-@media screen and (max-width:800px) {
-/* commodity */
     .comPage { width: 100%; text-align: center; }
 
     .combox ul li {
@@ -337,6 +310,10 @@
         line-height: 1.2;
     }
 
+} /* 950px 마지막 괄호 */
+
+@media screen and (max-width:800px) {
+/* commodity */    
     .combox form {
         width: 400px; margin: 0 auto;
         background: #fff;
@@ -358,9 +335,30 @@
         border: 1px solid #999; 
     }
 
-}/* 800px 마지막 괄호 */
+} /* 800px 마지막 괄호 */
 
-/* @media screen and (max-width:450px) */
+@media screen and (max-width:550px) {
+    .combox .imgBox img {
+        height: 350px;
+    }
+
+    .combox .txtBox {
+        padding: 20px 0px 10px 0;
+        word-break: keep-all;
+        text-align: left; width: 350px;
+        margin: 0 auto;
+    }   
+
+    .combox ul {
+        overflow: hidden;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .combox .comdel { display: block; text-align: left; width: 350px;
+        margin: 0 auto;
+    }
+} /* 550px 마지막 괄호 */
 
 @media screen and (max-width:450px) {
 

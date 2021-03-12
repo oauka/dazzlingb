@@ -243,8 +243,7 @@
     .article5 .form1 {
         width: 90%;
         margin: 0 auto;
-        padding: 50px 20px;
-        /* background: #666; */
+        padding: 50px 10px;
         border-radius: 5px;
     }
 
@@ -386,17 +385,24 @@
         position:absolute; top:50%;
         left:50%; transform:translate(-50%, -35%);
     }
+    .article5 .form1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 10px;
+        border-radius: 5px;
+    }
 
     .article5 .form1 label {
-        width: 60px; display: inline-block;
+        width: 70px; display: inline-block;
         vertical-align: middle;
-        color: #bd97d3; font-size: 13px; text-align: right; font-weight: bold;
-        padding-right: 20px;
+        color: #bd97d3; font-size: 12px;
+        text-align: right; font-weight: bold;
+        padding-right: 10px;
     }
 
     .article5 .form1 input {
         border: 1px solid #888; padding: 3px 5px;
-        vertical-align: middle; font-size: 15px;
+        vertical-align: middle; font-size: 12px;
         border-radius: 5px; width: 120px;
     }
 

@@ -20,7 +20,7 @@ legend { display:none }
     line-height: 1.5; padding: 10px; 
     margin-bottom: 10px; 
 }
-.joinBox .agree input { margin-left: 10px; }
+.joinBox .agree input { margin-left: 10px; left: 1.2; }
 .joinBox .btn { text-align:center }
 .joinBox .btn button { width: 100px; height: 40px;  
     border: none; background:#666; 

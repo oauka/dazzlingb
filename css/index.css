@@ -266,3 +266,61 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
     margin-bottom:25px;
     position:relative;
 }
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* contact */
+.article5 { padding-top: 100px; padding-bottom: 100px; margin: 0 auto;}
+.article5 h2 {
+    color: #666; font-size: 60px;
+    font-weight: bold;
+    font-family: 'Rajdhani';
+    padding-bottom: 30px;  text-align: center;
+}
+.article5 .form1 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    /* background: #666; */
+    border-radius: 5px;
+}
+.article5 .form1 label {
+    width: 100px; display: inline-block;
+    vertical-align: middle;
+    color: #bd97d3; font-size: 15px; text-align: right; font-weight: bold;
+    padding-right: 20px;
+}
+.article5 .form1 p:nth-of-type(4) label {
+    vertical-align: top;
+}
+.article5 .form1 input {
+    border: 1px solid #888; padding: 3px 5px;
+    vertical-align: middle; font-size: 15px;
+    border-radius: 5px;
+}
+.article5 .form1 input[type=file] {border: none; font-size: 12px; }
+.article5 .form1 p {
+    padding: 10px 0;
+}
+.article5 .form1 #memo {
+    /* width: calc(90% - 80px); */
+    width: 80%;
+    height: 150px;
+    vertical-align: top;
+    border-radius: 5px;
+    border: 1px solid #888; padding: 3px 5px;
+}
+.article5 .form1 p:nth-of-type(6) { text-align: center; padding-top: 15px; }
+.article5 .form1 p:nth-of-type(6) button {
+    margin: 10px 0 20px 0; padding: 5px 10px;
+    vertical-align: middle;
+    background: #bd97d3; color: #fff; font-size: 14px; border: none;
+    border-radius: 5px;
+}
+
+.article5 .form1 p:nth-of-type(6) button[type='reset'] {
+    background:#666;
+}
+
+.article5 .form1 p:nth-of-type(6) button:hover  {
+    background: #e9c7d6; color: #fff;
+}

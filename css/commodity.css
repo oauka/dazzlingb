@@ -43,7 +43,7 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 }
 .combox form p { padding: 10px; }
 .combox form label {
-    width: 100px; display: inline-block;
+    width: 70px; display: inline-block;
     vertical-align: middle;
     font-size: 15px; text-align: right;
     padding-right: 20px;
@@ -56,8 +56,17 @@ body{ font-family: 'Noto Sans KR', sans-serif; color:#000; font-size:15px }
 }
 
 .combox button {
-    margin: 0 0 50px 0; padding: 5px 10px;
+    margin: 10px 0 20px 0; padding: 5px 10px;
     vertical-align: middle;
     background: #bd97d3; color: #fff; font-size: 14px; border: none;
     border-radius: 5px;
+}
+
+.combox button[type='reset'] {
+    background:#666;
+}
+
+.combox .comdel {
+    display: block; text-align: left; width: 500px;
+    margin: 0 auto 50px auto;
 }

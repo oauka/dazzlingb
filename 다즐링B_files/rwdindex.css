@@ -411,16 +411,6 @@
     }
 
     .joinBox tbody tr { font-size: 12px; }
-    .joinBox #emailid,
-    .joinBox #emaildomain,
-    .joinBox  #domainlist { width: 120px; }
-    .joinBox #emailid { margin-bottom: 5px; }
-    .joinBox #hp1,
-    .joinBox #hp2 { width: 90px; }
-    .joinBox #addr1,
-    .joinBox #addr2,
-    .joinBox #addr3 { width:70%; }
-    .joinBox #addr1 { margin-bottom: 5px; }
 
 
     .loginBox .outer button {

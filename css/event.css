@@ -1,0 +1,71 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+/* font-family: 'Rajdhani'; */
+
+body{ font-family: 'Noto Sans KR', sans-serif; color:#666; font-size:15px; }
+.row{ max-width: 1200px; margin:0 auto; padding:0 10px; }
+* { outline: none; }
+
+.eventPage { width: calc(100% - 200px); padding: 0 50px; }
+.eventBox caption { display: none;}
+.eventBox {
+    padding-top:80px; padding-bottom:80px;
+}
+.eventBox h2 { font-size:30px; padding:40px 0; color: #bd97d3; font-weight: bold; }
+.eventBox .search { text-align: right; }
+.eventBox .search select,
+.eventBox .search input {
+    height: 30px; vertical-align: middle; padding: 0 5px;
+    border:1px solid #ddd; border-radius: 5px;
+}
+.eventBox .search button {
+    height: 30px; vertical-align: middle; padding: 0 10px;
+    background: #bd97d3; color: #fff; font-size: 14px; border: none;
+    border-radius: 5px;
+}
+
+.eventBox table { margin: 20px 0 30px;}
+.eventBox table { border: none;}
+.eventBox table col:nth-child(1) { width: 8%;}
+.eventBox table col:nth-child(2) { width: auto;}
+.eventBox table col:nth-child(3) { width: 13%;}
+.eventBox table col:nth-child(4) { width: 13%;}
+.eventBox table col:nth-child(5) { width: 8%;}
+.eventBox table th,
+.eventBox table td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 5px;
+}
+.eventBox table th { 
+    background: #f2f2f2;
+    border-top: 3px solid #ccc;
+}
+.eventBox table td {
+    white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+}
+.eventBox table tbody td { text-align: center;}
+.eventBox table tbody td:nth-child(2) { text-align: left;}
+
+.eventBox .num-list {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.eventBox .num-list span,
+.eventBox .num-list a {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 3px;
+}
+.eventBox .num-list span {
+    background: #bd97d3;
+    color: #fff;
+}
+.eventBox .num-list a.act,
+.eventBox .num-list a:hover {
+    color: #bd97d3;
+    border-bottom: 1px solid #8D84E4;
+}

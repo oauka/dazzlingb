@@ -185,6 +185,18 @@
     .noticeBox table tbody td:nth-child(4),
     .noticeBox table tbody td:nth-child(5) { display: none; }
 
+/* event */
+    .eventPage { width: auto;  padding: 0 30px; }
+    .eventBox table col:nth-child(1) { width: 8%; }
+    .eventBox table col:nth-child(2) { width: auto; }
+    .eventBox table col:nth-child(3) { width: 13%; }
+    .eventBox table col:nth-child(4) { width: 13%; display: none; }
+    .eventBox table col:nth-child(5) { width: 8%; display: none; }
+    .eventBox table thead th:nth-child(4),
+    .eventBox table thead th:nth-child(5) { display: none; }
+    .eventBox table tbody td:nth-child(4),
+    .eventBox table tbody td:nth-child(5) { display: none; }
+
 /* commodity */
     .comPage { width: 100%; margin-top: 120px;}
 
@@ -257,6 +269,7 @@
 
     .joinBox tbody tr { font-size: 14px; }
 
+/* notice */
     .noticePage { width: auto;  margin: 0 10px; }
     .noticeBox table col:nth-child(1) { width: 8%; display: none; }
     .noticeBox table col:nth-child(2) { width: auto; }
@@ -273,6 +286,29 @@
     .noticeBox table tbody td:nth-child(5) { display: none; }
 
     .noticeBox .num-list a {
+        display: inline-block;
+        padding: 3px 3px;
+        margin: 0 3px;
+        font-size: 12px;
+    }
+
+/* event */
+    .eventPage { width: auto;  margin: 0 10px; }
+    .eventBox table col:nth-child(1) { width: 8%; display: none; }
+    .eventBox table col:nth-child(2) { width: auto; }
+    .eventBox table col:nth-child(3) { width: 13%; display: none; }
+    .eventBox table col:nth-child(4) { width: 13%; display: none; }
+    .eventBox table col:nth-child(5) { width: 8%; display: none; }
+    .eventBox table thead th:nth-child(1),
+    .eventBox table thead th:nth-child(3),
+    .eventBox table thead th:nth-child(4),
+    .eventBox table thead th:nth-child(5) { display: none; }
+    .eventBox table tbody td:nth-child(1),
+    .eventBox table tbody td:nth-child(3),
+    .eventBox table tbody td:nth-child(4),
+    .eventBox table tbody td:nth-child(5) { display: none; }
+
+    .eventBox .num-list a {
         display: inline-block;
         padding: 3px 3px;
         margin: 0 3px;
@@ -437,6 +473,20 @@
 
 /* notice */
     .noticePage { width: auto;  padding: 0 0; }
+    
+/* event */
+    .eventPage { width: auto;  padding: 0 0; }
+
+/* search */
+    .noticeBox #searchlist,
+    .eventBox #searchlist { width: 80px;}
+    .noticeBox .search select,
+    .noticeBox .search input,
+    .eventBox .search select,
+    .eventBox .search input {
+        width: 100px; height: 30px; vertical-align: middle; padding: 0 5px;
+        border:1px solid #ddd; border-radius: 5px;
+    }
 
 /* commodity */
     .combox form {
